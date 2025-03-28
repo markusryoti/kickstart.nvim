@@ -681,6 +681,7 @@ require('lazy').setup({
         --
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         ts_ls = {},
+        astro = {},
         --
 
         lua_ls = {
@@ -774,6 +775,7 @@ require('lazy').setup({
         javascript = { 'prettierd', 'prettier', stop_after_first = true },
         typescript = { 'prettierd', 'prettier', stop_after_first = true },
         typescriptreact = { 'prettierd', 'prettier', stop_after_first = true },
+        astro = { 'prettierd', 'prettier', 'prettier-plugin-astro', stop_after_first = true },
       },
     },
   },
