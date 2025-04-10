@@ -20,4 +20,14 @@ return {
   {
     'github/copilot.vim',
   },
+  {
+    'norcalli/nvim-colorizer.lua',
+    conf = function()
+      require('colorizer').setup {
+        {
+          names = false,
+        },
+      }
+    end,
+  },
 }
